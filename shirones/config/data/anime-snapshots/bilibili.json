@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "provider": "bilibili",
+  "fetchedAt": "2026-10-03T03:18:43.968Z",
+  "accountRef": "612038242",
+  "items": [
+    {
+      "title": "Charlotte",
+      "status": "completed",
+      "rating": 9.5,
+      "year": "2015",
+      "genres": [
+        "日常",
+        "治愈",
+        "奇幻",
+        "校园",
+        "催泪",
+        "原创"
+      ],
+      "cover": "/assets/anime/covers/bili_2572.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss2572",
+      "description": "思春期的少年少女中极少部分人会发作的特殊能力。 驱使着无人知晓的能力，过着顺风顺水学园生活的乙坂有宇。 突然出现在这样的他的面前的少女，友利奈绪。 从与她相遇的那一天起，被揭露出特殊能力者的宿命。 这...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "2572",
+        "seasonId": "2572"
+      }
+    },
+    {
+      "title": "间谍过家家 第三季",
+      "status": "watching",
+      "rating": 0,
+      "year": "2025",
+      "genres": [
+        "漫画改",
+        "搞笑",
+        "日常"
+      ],
+      "cover": "/assets/anime/covers/bili_112827.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss112827",
+      "description": "每个人都有不可告人的一面。 这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。 是维斯达利斯情报局奥斯塔尼...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "27709925",
+        "seasonId": "112827"
+      }
+    },
+    {
+      "title": "间谍过家家 第二季 中配版",
+      "status": "watching",
+      "rating": 9.2,
+      "year": "2024",
+      "genres": [
+        "日常",
+        "搞笑",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_47794.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss47794",
+      "description": "每个人都有不可告人的一面。 这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。 是维斯达利斯情报局奥斯塔尼亚对...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "21618488",
+        "seasonId": "47794"
+      }
+    },
+    {
+      "title": "间谍过家家 第二季",
+      "status": "watching",
+      "rating": 9.7,
+      "year": "2023",
+      "genres": [
+        "日常",
+        "搞笑",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_46085.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss46085",
+      "description": "每个人都有不可告人的一面。 这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。 是维斯达利斯情报局奥斯塔尼...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "21086686",
+        "seasonId": "46085"
+      }
+    },
+    {
+      "title": "三体",
+      "status": "watching",
+      "rating": 8.2,
+      "year": "2022",
+      "genres": [],
+      "cover": "/assets/anime/covers/bili_26257.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss26257",
+      "description": "无数细线横亘在星空之中，如同一把巨大的刷子。三体星舰队将于400年后抵达。遥远蝴蝶扇动着翅膀，也改变了罗辑的命运，轰然打开的门后是世界中心——面壁计划开启。同时，智子所创建的破壁室内，破壁人一一就位…...",
+      "studio": "中国大陆",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "4315402",
+        "seasonId": "26257"
+      }
+    },
+    {
+      "title": "繼母的拖油瓶是我的前女友（僅限港澳台地區）",
+      "status": "watching",
+      "rating": 0,
+      "year": "2022",
+      "genres": [
+        "少女",
+        "日常",
+        "校园",
+        "恋爱"
+      ],
+      "cover": "/assets/anime/covers/bili_42121.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss42121",
+      "description": "伊理戶水斗曾在國二到國三的時光交過名為綾井結女的女朋友。水斗如此形容他的初戀：「這個老天爺設下的陷阱。換言之就是命運。」後來因為彼此性格不合而在國中畢業時分手了。兩人本以為就這樣到此為止。為了避開對方...",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28338523",
+        "seasonId": "42121"
+      }
+    },
+    {
+      "title": "鏈鋸人（僅限港澳台地區）",
+      "status": "watching",
+      "rating": 0,
+      "year": "2022",
+      "genres": [
+        "热血",
+        "战斗",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_43060.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss43060",
+      "description": "描述背負了父親遺留下龐大債務、因此過著極端負窮生活的少年淀治，他因為救了惡魔波奇塔，並與牠一起以惡魔獵人的身分斬殺低階惡魔來換取酬勞。有一天，流氓騙了淀治，讓他成為一堆惡魔的祭品，淀治在臨死之際，波奇...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28339623",
+        "seasonId": "43060"
+      }
+    },
+    {
+      "title": "间谍过家家",
+      "status": "watching",
+      "rating": 9.7,
+      "year": "2022",
+      "genres": [
+        "日常",
+        "搞笑",
+        "战斗",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_41410.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss41410",
+      "description": "每个人都有不可告人的一面。 这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。 是维斯达利斯情报局奥斯塔尼...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28237119",
+        "seasonId": "41410"
+      }
+    },
+    {
+      "title": "间谍过家家 中配版",
+      "status": "watching",
+      "rating": 9,
+      "year": "2022",
+      "genres": [
+        "日常",
+        "搞笑",
+        "战斗",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_43622.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss43622",
+      "description": "每个人都有不可告人的一面。 这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。 是维斯达利斯情报局奥斯塔尼...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28340196",
+        "seasonId": "43622"
+      }
+    },
+    {
+      "title": "间谍过家家 粤配版",
+      "status": "watching",
+      "rating": 9.6,
+      "year": "2022",
+      "genres": [
+        "日常",
+        "搞笑",
+        "战斗",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_43056.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss43056",
+      "description": "每个人都有不可告人的一面。 这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。 是维斯达利斯情报局奥斯塔尼...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28339619",
+        "seasonId": "43056"
+      }
+    },
+    {
+      "title": "瓦尼塔斯的手记",
+      "status": "watching",
+      "rating": 9.7,
+      "year": "2021",
+      "genres": [
+        "奇幻",
+        "战斗",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_38924.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss38924",
+      "description": "这是逐渐走向毁灭的，吸血鬼们的故事。 这里是同时存在着人类与吸血鬼的19世纪的法国。 青年吸血鬼诺亚，为了寻找向吸血鬼散布诅咒的魔导书“瓦尼塔斯之书”，而踏上了前往巴黎的旅途。 在路途中的飞船上，事...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28234616",
+        "seasonId": "38924"
+      }
+    },
+    {
+      "title": "青春猪头少年不会梦到兔女郎学姐",
+      "status": "watching",
+      "rating": 9.8,
+      "year": "2018",
+      "genres": [
+        "奇幻",
+        "校园",
+        "恋爱",
+        "小说改"
+      ],
+      "cover": "/assets/anime/covers/bili_25733.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss25733",
+      "description": "青春期症候群——这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。例如，在梓川咲太面前出现的野生兔女郎。 她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "134932",
+        "seasonId": "25733"
+      }
+    },
+    {
+      "title": "伪恋：",
+      "status": "watching",
+      "rating": 9.4,
+      "year": "2015",
+      "genres": [
+        "日常",
+        "校园",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_1574.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss1574",
+      "description": "本作是一部青春爱情喜剧，故事以假装成恋人的两人——日本黑道“集英组”头目的独子一条乐，与美国黑帮“蜂巢”的当家千金桐崎千棘，还有一条乐所暗恋的女生小野寺小咲的三角关系为中心展开；随后又加入了性格各异的...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "1574",
+        "seasonId": "1574"
+      }
+    },
+    {
+      "title": "伪恋",
+      "status": "watching",
+      "rating": 9.2,
+      "year": "2014",
+      "genres": [
+        "日常",
+        "搞笑",
+        "校园",
+        "恋爱",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_1573.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss1573",
+      "description": "一条乐，一个随处可见的普通高中生，同时也是黑道集团“集英组”的小少爷。10年前，他和关系很好的某个女孩子做了一个约定，“下次见面的时候，我们就结婚吧”，分别时女孩送他的一条项链，10年来他一直都寸不离...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28227496",
+        "seasonId": "1573"
+      }
+    },
+    {
+      "title": "龙与虎",
+      "status": "watching",
+      "rating": 9.7,
+      "year": "2008",
+      "genres": [
+        "少女",
+        "治愈",
+        "校园",
+        "催泪",
+        "小说改",
+        "萝莉"
+      ],
+      "cover": "/assets/anime/covers/bili_1672.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss1672",
+      "description": "樱花飞舞的四月，全新的高中二年级，新的班级…… 眼神凶恶的普通男孩——高须龙儿，遇上了众人害怕、凶暴残忍的“掌中老虎”逢坂大河，还知道了她不欲为人知的秘密。这就是龙虎相争爱与战斗的序幕。 再加上总是笑...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "1672",
+        "seasonId": "1672"
+      }
+    },
+    {
+      "title": "死神 S1（僅限港澳台地區）",
+      "status": "watching",
+      "rating": 0,
+      "year": "2004",
+      "genres": [
+        "奇幻",
+        "漫画改",
+        "冒险"
+      ],
+      "cover": "/assets/anime/covers/bili_42403.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss42403",
+      "description": "黑崎一護，15歳，擁有橙色頭髮和咖啡色眼睛。是個外表極普通但可以看見鬼魂的高中生。有一天，他遇上一個自稱是死神的少女朽木露琪亞，自此他的生活便起了天翻地覆的改變。一直被露琪亞窮追的惡靈「虚」襲擊黑崎一...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28338858",
+        "seasonId": "42403"
+      }
+    }
+  ]
+}

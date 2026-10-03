@@ -45,11 +45,6 @@ src/assets/fonts/.subset/
 src/generated/local-icon-collections.ts
 *.iml
 
-# anime snapshot data & downloaded covers
-shirones/config/data/anime-snapshots/*.json
-public/assets/anime/covers/*
-!public/assets/anime/covers/.gitkeep
-
 # generated responsive moment thumbnails
 public/assets/moments/thumbnails/*
 !public/assets/moments/thumbnails/.gitkeep
