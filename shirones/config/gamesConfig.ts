@@ -1,5 +1,6 @@
 import type { GamesConfig } from "@/types/gamesConfig";
 import { withUserConfig } from "@/utils/config-overlay.ts";
+import { gamesData } from "./data/games";
 
 /**
  * 游戏展示页行为与展示配置。
@@ -48,5 +49,6 @@ export const gamesConfig: GamesConfig = withUserConfig("games", {
 			description: "Cozy, casual & party games",
 		},
 	],
+	items: gamesData,
 	// disabledIds: [],
 });

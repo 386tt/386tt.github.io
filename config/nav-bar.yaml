@@ -1,0 +1,19 @@
+links:
+  - preset: Home
+  - preset: Archive
+  - preset: Friends
+  - preset: Moments
+  - preset: Anime
+  - preset: Compass
+  - preset: Albums
+  - name: "$t:more"
+    icon: material-symbols:apps-rounded
+    children:
+      - preset: Timeline
+      - preset: Projects
+      - preset: Devices
+      - preset: Games
+      - preset: Skills
+      - preset: About
+      - preset: GitHub
+        url: https://github.com/386tt

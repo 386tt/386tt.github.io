@@ -3,65 +3,114 @@
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.content.publicFolder": "public",
+  "frontMatter.content.defaultFileType": "md",
   "frontMatter.content.pageFolders": [
     {
       "title": "posts",
-      "path": "[[workspace]]/shirones/content/posts"
+      "path": "[[workspace]]/shirones/content/posts",
+      "contentTypes": ["post"]
+    },
+    {
+      "title": "moments",
+      "path": "[[workspace]]/shirones/content/moments",
+      "contentTypes": ["moment"]
+    },
+    {
+      "title": "series",
+      "path": "[[workspace]]/shirones/content/series",
+      "contentTypes": ["series"]
+    },
+    {
+      "title": "spec",
+      "path": "[[workspace]]/shirones/content/spec",
+      "contentTypes": ["spec"]
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "post",
+      "fileType": "md",
       "pageBundle": true,
-      "previewPath": "'blog'",
-      "filePrefix": null,
       "clearEmpty": true,
+      "previewPath": "/posts/{{slug}}/",
+      "filePrefix": null,
       "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string",
-          "single": true
-        },
-        {
-          "title": "description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "published",
-          "name": "published",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "preview",
-          "name": "image",
-          "type": "image",
-          "isPreviewImage": true
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "list"
-        },
-        {
-          "title": "category",
-          "name": "category",
-          "type": "string"
-        },
-        {
-          "title": "draft",
-          "name": "draft",
-          "type": "boolean"
-        },
-        {
-          "title": "language",
-          "name": "language",
-          "type": "string"
-        }
+        { "name": "title", "title": "标题", "type": "string", "single": true, "required": true },
+        { "name": "published", "title": "发布日期", "type": "datetime", "default": "{{now}}", "isPublishDate": true, "required": true },
+        { "name": "updated", "title": "更新日期", "type": "datetime", "isModifiedDate": true },
+        { "name": "description", "title": "摘要", "type": "string" },
+        { "name": "image", "title": "封面图", "type": "image", "isPreviewImage": true },
+        { "name": "tags", "title": "标签", "type": "tags" },
+        { "name": "category", "title": "分类", "type": "string", "single": true },
+        { "name": "series", "title": "所属系列 (slug)", "type": "string", "single": true },
+        { "name": "seriesOrder", "title": "系列内排序", "type": "number", "numberOptions": { "isDecimal": false, "min": 1, "step": 1 } },
+        { "name": "lang", "title": "语言", "type": "string", "single": true },
+        { "name": "pinned", "title": "置顶", "type": "boolean", "default": false },
+        { "name": "draft", "title": "草稿", "type": "boolean", "default": false },
+        { "name": "comment", "title": "允许评论", "type": "boolean", "default": true },
+        { "name": "encrypted", "title": "加密文章", "type": "boolean", "default": false },
+        { "name": "password", "title": "访问密码", "type": "string", "single": true },
+        { "name": "passwordHint", "title": "密码提示", "type": "string", "single": true },
+        { "name": "hideHomeContent", "title": "首页隐藏正文", "type": "boolean", "default": true },
+        { "name": "alias", "title": "别名", "type": "string", "single": true },
+        { "name": "permalink", "title": "自定义链接", "type": "string", "single": true }
       ]
+    },
+    {
+      "name": "moment",
+      "fileType": "md",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "previewPath": "/moments/",
+      "filePrefix": "{{date|yyyy-MM-dd}}-",
+      "fields": [
+        { "name": "published", "title": "时间", "type": "datetime", "default": "{{now}}", "isPublishDate": true, "required": true },
+        { "name": "pinned", "title": "置顶", "type": "boolean", "default": false },
+        { "name": "location", "title": "地点", "type": "string", "single": true },
+        { "name": "mood", "title": "心情图标 (Iconify)", "type": "string", "single": true, "description": "如 material-symbols:sentiment-excited-outline-rounded" },
+        { "name": "tags", "title": "标签", "type": "tags" },
+        {
+          "name": "images",
+          "title": "图片",
+          "type": "block",
+          "fields": [
+            { "name": "src", "title": "图片路径", "type": "image" },
+            { "name": "alt", "title": "描述", "type": "string", "single": true }
+          ]
+        },
+        { "name": "draft", "title": "草稿", "type": "boolean", "default": false }
+      ]
+    },
+    {
+      "name": "series",
+      "fileType": "md",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "previewPath": "/series/{{slug}}/",
+      "filePrefix": null,
+      "fields": [
+        { "name": "title", "title": "系列标题", "type": "string", "single": true, "required": true },
+        {
+          "name": "status",
+          "title": "状态",
+          "type": "choice",
+          "default": "ongoing",
+          "choices": [
+            { "id": "ongoing", "title": "进行中" },
+            { "id": "completed", "title": "已完结" }
+          ]
+        },
+        { "name": "defaultCategory", "title": "默认分类", "type": "string", "single": true }
+      ]
+    },
+    {
+      "name": "spec",
+      "fileType": "md",
+      "pageBundle": false,
+      "clearEmpty": false,
+      "previewPath": "/about/",
+      "filePrefix": null,
+      "fields": []
     }
   ]
 }

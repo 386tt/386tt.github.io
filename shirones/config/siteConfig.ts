@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	site: "https://386tt.github.io/",
 	base: "/",
 	title: "386tt's Blog",
-	subtitle: "A Material 3 anime blog",
+	subtitle: "386tt的博客",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
 		contentAlign: "center",
@@ -57,9 +57,17 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		// desktop 用于 >= 1024px；mobile 仅用于 < 1024px 的首页，手机非首页不显示壁纸。
 		// 数组顺序就是轮播顺序；只需要静态 Banner 时，每组保留一张图片即可。
 		src: {
-			desktop: ["assets/images/banner/desktop/1.webp"],
-			mobile: ["assets/images/banner/mobile/1.webp"],
-		},
+    desktop: [
+        "/assets/images/banner/desktop/1.webp",
+        "/assets/images/banner/desktop/2.webp",
+        "/assets/images/banner/desktop/3.webp",
+    ],
+    mobile: [
+        "/assets/images/banner/mobile/1.webp",
+        "/assets/images/banner/mobile/2.webp",
+        "/assets/images/banner/mobile/3.webp",
+    ],
+},
 		// 图片裁切焦点："top"、"center" 或 "bottom"。
 		position: "center",
 		dim: {
@@ -72,11 +80,8 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 			enable: true,
 			title: "386tt's Blog",
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"今天也学习了吗？",
+				"上分了吗？",
 			],
 			typewriter: {
 				// 副标题逐字显示；关闭后直接显示完整副标题。

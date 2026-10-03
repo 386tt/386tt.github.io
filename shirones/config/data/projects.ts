@@ -6,40 +6,30 @@ import type { ProjectItem } from "@/types/projectsConfig";
 
 export const projectsData: ProjectItem[] = [
 	{
-		key: "shirone",
-		title: "Shirone",
+		key: "ncm-music-unlock",
+		title: "NCM Music Unlock",
 		summary:
-			"An Astro blog theme shaped around an M3E component system, expressive content, and resilient client navigation.",
-		category: "theme",
-		phase: "building",
-		technologies: ["Astro", "Svelte", "TypeScript", "Tailwind CSS"],
-		icon: "material-symbols:deployed-code-outline-rounded",
-		cover: "/assets/projects/shirone.webp",
-		coverAlt: "Shirone theme homepage preview",
-		featured: true,
-		repository: "https://github.com/LyraVoid/Shirone",
-		year: "2026",
-	},
-	{
-		key: "folkpatch",
-		title: "FolkPatch",
-		summary: "A kernel-level root solution for Android, built on APatch.",
-		category: "android",
-		phase: "building",
-		technologies: ["Kotlin", "APatch", "Android"],
-		icon: "material-symbols:terminal-rounded",
-		repository: "https://github.com/LyraVoid/FolkPatch",
-	},
-	{
-		key: "kernelpatch",
-		title: "KernelPatch",
-		summary:
-			"A kernel patch framework that powers APatch-style root on Android by loading code into the running kernel.",
-		category: "android",
+			"Browser and Node.js tools for unlocking NCM and QQ Music encrypted audio files while preserving metadata and album artwork.",
+		category: "tools",
 		phase: "shipped",
-		technologies: ["C", "Linux Kernel", "Android"],
-		icon: "material-symbols:extension-outline-rounded",
-		repository: "https://github.com/lyravoid/KernelPatch",
+		technologies: ["JavaScript", "Web Audio", "Node.js"],
+		icon: "material-symbols:music-note-rounded",
+		featured: true,
+		repository: "https://github.com/386tt/ncm-music-unlock",
+		year: "2026.07",
+	},
+	{
+		key: "youtube-video-downloader",
+		title: "YouTube Video Downloader",
+		summary:
+			"A local Flask and yt-dlp downloader for YouTube videos, with high-quality audio and video downloads, format selection, and live progress tracking.",
+		category: "tools",
+		phase: "shipped",
+		technologies: ["Python", "Flask", "yt-dlp", "FFmpeg"],
+		icon: "material-symbols:download-rounded",
+		featured: true,
+		repository: "https://github.com/386tt/youtube-video-downloader",
+		year: "2026",
 	},
 ];
 
